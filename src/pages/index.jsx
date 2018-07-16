@@ -143,12 +143,9 @@ const IndexPage = ({
 }) => (
   <React.Fragment>
     <Header>
-      <Logo>Bella Inc.</Logo>
+      <Logo>Host unique experiences on SploreGuide</Logo>
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
-        <h1>
-          We design and develop <br /> noice web applications.
-        </h1>
-        <h3>Hi, Bella Inc., the human form of the 💯 Emoji.</h3>
+        <h3>Earn money leading people on trips and activities you love</h3>
       </Hero>
     </Header>
     <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">

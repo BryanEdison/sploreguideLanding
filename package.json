@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-bella",
-  "description": "Gatsby Starter Portfolio Bella",
+  "name": "SploreGuide",
+  "description": "SploreGuide Landing Page",
   "version": "1.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "SploreGuide",
   "dependencies": {
     "emotion": "^9.2.3",
     "emotion-server": "^9.2.3",
