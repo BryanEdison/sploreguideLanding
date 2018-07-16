@@ -1,11 +1,11 @@
 const theme = {
   colors: {
-    primary: '#b710a1',
+    primary: '#2F2F2F',
     primaryLight: '#e456e9',
-    primaryDark: '#3d0435',
+    primaryDark: '#FFEFD5',
     bg: '#fff',
     text: '#021212',
-    textInvert: '#fff',
+    textInvert: '#021212',
     greyLight: '#B4B9C1',
     greyMedium: '#414141',
     greyDark: '#2F2F2F',
