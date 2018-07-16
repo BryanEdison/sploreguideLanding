@@ -4,7 +4,7 @@ import styled from 'react-emotion';
 import { Flex } from 'grid-emotion';
 import Footer from '../components/Footer';
 import GridItem from '../components/GridItem';
-import BeTheHero from '../images/be_the_hero.svg';
+import Calendar from '../images/phone.png';
 import DataReport from '../images/data_report.svg';
 import MayTheForce from '../images/may_the_force.svg';
 
@@ -164,7 +164,7 @@ const IndexPage = ({
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
           <ServiceImage>
-            <img src={BeTheHero} alt="Be The Hero" />
+            <img src={Calendar} alt="Calendar" />
           </ServiceImage>
           <ServiceText>
             <h2>Be your own hero</h2>
