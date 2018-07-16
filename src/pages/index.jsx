@@ -167,18 +167,10 @@ const IndexPage = ({
             <img src={Calendar} alt="Calendar" />
           </ServiceImage>
           <ServiceText>
-            <h2>Be your own hero</h2>
+            <h2>Host on your terms</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-              a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            Set a schedule that works for you, whether you host daily, weekly, or monthly. Pick your price and group size, and manage all the details on the go with a convenient mobile app.
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-              <li>Item Wrap</li>
-            </ul>
           </ServiceText>
         </Flex>
         <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
