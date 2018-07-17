@@ -172,7 +172,7 @@ const IndexPage = ({
             </p>
           </ServiceText>
         </Flex>
-        <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
+        <Flex w={1} py={2} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
           <ServiceImage>
             <img src={DataReport} alt="Data Report" />
           </ServiceImage>
