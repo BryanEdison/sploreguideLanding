@@ -60,9 +60,7 @@ const Hero = styled(Flex)`
 `;
 
 const Wrapper = styled(Flex)`
-  max-width: ${props => props.theme.maxWidth};
-  margin-top: 8rem;
-`;
+  max-width: ${props => props.theme.maxWidth};`;
 
 const PrimaryBG = styled.section`
   background: ${props => props.theme.colors.primaryDark};
