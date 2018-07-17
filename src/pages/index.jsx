@@ -180,7 +180,7 @@ const IndexPage = ({
           <ServiceText>
             <h2>Start a business with no upfront costs</h2>
             <p>
-            You’ll get your own page on Airbnb that travelers can use to book your experience. Airbnb handles payment processing, provides 24-hour customer service, and covers liability insurance.
+            You’ll get your own page on SploreGuide that travelers can use to book your experience. SploreGuide handles payment processing, provides 24-hour customer service, and covers liability insurance.
             </p>
           </ServiceText>
         </Flex>
@@ -191,7 +191,7 @@ const IndexPage = ({
           <ServiceText>
             <h2>Start a business with no upfront costs</h2>
             <p>
-            You’ll get your own page on Airbnb that travelers can use to book your experience. Airbnb handles payment processing, provides 24-hour customer service, and covers liability insurance.
+            You’ll get your own page on SploreGuide that travelers can use to book your experience. SploreGuide handles payment processing, provides 24-hour customer service, and covers liability insurance.
             </p>
           </ServiceText>
         </Flex>
