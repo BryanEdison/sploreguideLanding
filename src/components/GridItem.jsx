@@ -95,7 +95,7 @@ const StyledLink = styled(Link)`
 `;
 
 const GridItem = ({ uid, sizes, alt, title, subtitle }) => (
-  <Item flexDirection="column" key={uid} style={{ marginTop: `${randomNumber(4, 8) * 2}rem` }}>
+  <Item flexDirection="column" key={uid} style={{ marginTop: '8rem' }}>
     <StyledLink to={uid}>
       <Overlay justifyContent="center" alignItems="center" flexDirection="column">
         <span>View</span>
