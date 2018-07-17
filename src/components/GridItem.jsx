@@ -96,13 +96,6 @@ const StyledLink = styled(Link)`
 
 const GridItem = ({ uid, sizes, alt, title, subtitle }) => (
   <Item flexDirection="column" key={uid} style={{ marginTop: '8rem' }}>
-    <StyledLink to={uid}>
-      <Overlay justifyContent="center" alignItems="center" flexDirection="column">
-        <span>View</span>
-        <span>case study</span>
-      </Overlay>
-      <Image sizes={sizes} alt={alt} />
-    </StyledLink>
     <ItemTitle>{title}</ItemTitle>
     <ItemSubtitle>{subtitle}</ItemSubtitle>
   </Item>
