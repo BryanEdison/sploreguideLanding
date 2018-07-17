@@ -178,17 +178,10 @@ const IndexPage = ({
             <img src={DataReport} alt="Data Report" />
           </ServiceImage>
           <ServiceText>
-            <h2>We love charts!</h2>
+            <h2>Start a business with no upfront costs</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            You’ll get your own page on Airbnb that travelers can use to book your experience. Airbnb handles payment processing, provides 24-hour customer service, and covers liability insurance.
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-              <li>Item Wrap</li>
-            </ul>
           </ServiceText>
         </Flex>
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
@@ -196,16 +189,10 @@ const IndexPage = ({
             <img src={MayTheForce} alt="May the Force" />
           </ServiceImage>
           <ServiceText>
-            <h2>May the force be with you</h2>
+            <h2>Start a business with no upfront costs</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean.
+            You’ll get your own page on Airbnb that travelers can use to book your experience. Airbnb handles payment processing, provides 24-hour customer service, and covers liability insurance.
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-            </ul>
           </ServiceText>
         </Flex>
       </Wrapper>
