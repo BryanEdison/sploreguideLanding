@@ -61,6 +61,7 @@ const Hero = styled(Flex)`
 
 const Wrapper = styled(Flex)`
   max-width: ${props => props.theme.maxWidth};
+  margin-top: 8rem;
 `;
 
 const PrimaryBG = styled.section`
