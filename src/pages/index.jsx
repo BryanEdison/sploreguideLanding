@@ -186,7 +186,7 @@ const IndexPage = ({
     </PrimaryBG>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
       <h1>Say hi!</h1>
-      <h3>contact@domain.com</h3>
+      <h3>contact@SploreGuide.com</h3>
     </Contact>
     <Footer />
   </React.Fragment>
