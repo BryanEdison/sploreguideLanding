@@ -153,7 +153,6 @@ const IndexPage = ({
           uid={c.node.uid}
           key={c.node.uid}
           sizes={c.node.data.header_image.localFile.childImageSharp.sizes}
-          alt={c.node.data.title.text}
           title={c.node.data.title.text}
           subtitle={c.node.data.subtitle.text}
         />
