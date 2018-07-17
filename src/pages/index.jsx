@@ -184,17 +184,6 @@ const IndexPage = ({
             </p>
           </ServiceText>
         </Flex>
-        <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
-          <ServiceImage>
-            <img src={MayTheForce} alt="May the Force" />
-          </ServiceImage>
-          <ServiceText>
-            <h2>Start a business with no upfront costs</h2>
-            <p>
-            You’ll get your own page on SploreGuide that travelers can use to book your experience. SploreGuide handles payment processing, provides 24-hour customer service, and covers liability insurance.
-            </p>
-          </ServiceText>
-        </Flex>
       </Wrapper>
     </PrimaryBG>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
