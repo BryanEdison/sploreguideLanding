@@ -7,12 +7,16 @@ import GridItem from '../components/GridItem';
 import Calendar from '../images/phone.png';
 import DataReport from '../images/data_report.svg';
 import MayTheForce from '../images/may_the_force.svg';
+import Vid from '../components/Video';
+import Helmet from 'react-helmet';
+import YouTube from 'react-youtube';
 
 const Header = styled.header`
   width: 100%;
-  height: 900px;
+  height: 600px;
   position: relative;
-  padding: 1.75rem;
+  padding: 0rem;
+  top: 0px
   @media (max-width: ${props => props.theme.breakpoint.s}) {
     height: 700px;
   }
@@ -26,11 +30,18 @@ const Logo = styled.h2`
   text-align: center;
   padding: 0 1.75rem;
   margin-top: 50px;
+  color: white;
 `;
 
 const Hero = styled(Flex)`
   height: 100%;
+  position: absolute;
   text-align: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+
+
   h1 {
     letter-spacing: 0.2rem;
     line-height: 4.5rem;
@@ -40,6 +51,10 @@ const Hero = styled(Flex)`
     margin-top: 2rem;
     font-size: 1.85rem;
     font-weight: 400;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
   }
   @media (max-width: ${props => props.theme.breakpoint.m}) {
     h1 {
@@ -142,6 +157,7 @@ const IndexPage = ({
 }) => (
   <React.Fragment>
     <Header>
+    <Vid/>
       <Logo>Host unique experiences on SploreGuide</Logo>
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
         <h3>Earn money leading people on trips and activities you love</h3>
