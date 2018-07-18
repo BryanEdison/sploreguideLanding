@@ -15,7 +15,7 @@ class Vid extends Component {
         super(props);
 
         this.state = {
-            videoURL: 'https://cdn-b-east.streamable.com/video/mp4/n0fiy.mp4?token=SpBWdEUc9oTg77dnqdKLCA&expires=1531947604'
+            videoURL: 'https://cdn-b-east.streamable.com/video/mp4/9k9tr.mp4?token=Y11czwniBMOdxM3o976L_A&expires=1531951275'
         }
     }
 
