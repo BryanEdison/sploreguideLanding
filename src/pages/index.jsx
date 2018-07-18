@@ -14,16 +14,16 @@ import YouTube from 'react-youtube';
 const Header = styled.header`
   width: 100%;
   height: 600px;
-  position: relative;
+  position: absolute;
   padding: 0rem;
-  top: 0px
+  top: 0px;
   @media (max-width: ${props => props.theme.breakpoint.s}) {
     height: 700px;
   }
 `;
 
 const Logo = styled.h2`
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -54,7 +54,7 @@ const Hero = styled(Flex)`
     text-align: center;
     align-content: center;
     align-items: center;
-    color: white;
+    color: white
   }
   @media (max-width: ${props => props.theme.breakpoint.m}) {
     h1 {
@@ -156,8 +156,8 @@ const IndexPage = ({
   },
 }) => (
   <React.Fragment>
+  <Vid />
     <Header>
-    <Vid/>
       <Logo>Host unique experiences on SploreGuide</Logo>
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
         <h3>Earn money leading people on trips and activities you love</h3>
