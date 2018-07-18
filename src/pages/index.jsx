@@ -33,6 +33,20 @@ const Logo = styled.h2`
   color: white;
 `;
 
+const Subtitle = styled.h3`
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 1.75rem;
+  color: white;
+  font-family: ${props => props.theme.fontFamily.body};
+  margin-top: 9rem;
+  font-size: 1.85rem;
+  font-weight: 400;
+`;
+
 const Hero = styled(Flex)`
   height: 100%;
   position: absolute;
@@ -158,9 +172,11 @@ const IndexPage = ({
   <React.Fragment>
   <Vid />
     <Header>
-      <Logo>Host unique experiences on SploreGuide</Logo>
+      <Logo>Host unique experiences on SploreGuide
+      <Subtitle>Earn money leading people on trips and activities you love</Subtitle>
+      </Logo>
+
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
-        <h3>Earn money leading people on trips and activities you love</h3>
       </Hero>
     </Header>
     <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
