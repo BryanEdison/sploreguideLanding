@@ -113,7 +113,6 @@ const Hero = styled(Flex)`
     color: white
   }
   @media (max-width: ${props => props.theme.breakpoint.m}) {
-    margin-bottom: 10pix;
 
     h1 {
       line-height: 3.5rem;
@@ -123,7 +122,6 @@ const Hero = styled(Flex)`
     }
   }
   @media (max-width: ${props => props.theme.breakpoint.s}) {
-    margin-bottom: 10pix;
 
     h1 {
       line-height: 2.5rem;
@@ -155,20 +153,17 @@ const ServiceImage = styled.div`
   text-align: center;
   img {
     width: 90%;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   @media (max-width: ${props => props.theme.breakpoint.l}) {
     flex-basis: 100%;
     max-width: 100%;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
     img {
       width: 50%;
     }
   }
   @media (max-width: ${props => props.theme.breakpoint.s}) {
-    margin-bottom: 10pix;
 
     img {
       width: 75%;
@@ -181,7 +176,6 @@ const ServiceText = styled.div`
   max-width: calc(99.9% * 3 / 7 - 5rem);
   width: calc(99.9% * 3 / 7 - 5rem);
   @media (max-width: ${props => props.theme.breakpoint.l})
-  margin-bottom: 10pix;
   {
     flex-basis: 100%;
     max-width: 100%;
@@ -212,7 +206,6 @@ const Contact = styled(Wrapper)`
     font-weight: 400;
   }
   @media (max-width: ${props => props.theme.breakpoint.m})
-  margin-bottom: 10pix;
   {
     font-size: 1.5rem;
   }
