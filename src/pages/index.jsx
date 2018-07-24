@@ -135,6 +135,7 @@ const Hero = styled(Flex)`
 const Wrapper = styled(Flex)`
   max-width: ${props => props.theme.maxWidth};`;
 
+
 const PrimaryBG = styled.section`
   background: ${props => props.theme.colors.primaryDark};
   color: ${props => props.theme.colors.textInvert};
@@ -199,10 +200,10 @@ const Contact = styled(Wrapper)`
   h3 {
     color: ${props => props.theme.colors.text};
   }
-  h3 {
+  h4 {
     font-family: ${props => props.theme.fontFamily.body};
     margin-top: 1rem;
-    font-size: 1.85rem;
+    font-size: 1.5rem;
     font-weight: 400;
   }
   @media (max-width: ${props => props.theme.breakpoint.m})
@@ -269,7 +270,7 @@ const IndexPage = ({
     </PrimaryBG>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
       <h1>Say hi!</h1>
-      <h3>contact@SploreGuide.com</h3>
+      <h4>contact@SploreGuide.com</h4>
     </Contact>
     <Footer />
   </React.Fragment>
