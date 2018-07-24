@@ -51,7 +51,7 @@ const Card = styled(Flex)`
 background-image: url(https://a0.muscache.com/airbnb/static/launch_platform/experience-hosting-v2/HowAreExperiencesDifferent-43e4474869a718178f387868831339d1.jpg);
 background-color: #eff0f4 !important;
     background-size: cover !important;
-    padding: 24px !important;
+    padding: 15px !important;
     background-position: bottom !important;
     width: 100% !important;
     height: -webkit-calc(80vh) !important;
@@ -61,13 +61,13 @@ background-color: #eff0f4 !important;
     max-height: -moz-calc(100vw / 2 * 3) !important;
     max-height: calc(100vw / 2 * 3) !important;
     position: relative !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     padding-top: 32px !important;
     text-align: center !important;
     overflow: scroll !important;
     p {
-      margin: 10px !important;
+      margin: 8px !important;
     word-wrap: break-word !important;
     font-size: 20px !important;
     line-height: 26px !important;
@@ -84,7 +84,7 @@ background-color: #eff0f4 !important;
       font-size: 2em !important;
       font-weight: inherit !important;
       line-height: inherit !important;
-      margin: 20px !important;
+      margin: 15px !important;
       padding: 0px !important;
     }
 `;
@@ -194,7 +194,6 @@ const ServiceText = styled.div`
 `;
 
 const Contact = styled(Wrapper)`
-  margin: 0 auto;
   h1,
   h2,
   h3 {
