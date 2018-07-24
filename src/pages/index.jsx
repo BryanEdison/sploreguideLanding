@@ -47,6 +47,48 @@ const Subtitle = styled.h3`
   font-weight: 400;
 `;
 
+const Card = styled(Flex)`
+background-image: url(https://a0.muscache.com/airbnb/static/launch_platform/experience-hosting-v2/HowAreExperiencesDifferent-43e4474869a718178f387868831339d1.jpg);
+background-color: #eff0f4 !important;
+    background-size: cover !important;
+    padding: 24px !important;
+    background-position: bottom !important;
+    width: 100% !important;
+    height: -webkit-calc(80vh) !important;
+    height: -moz-calc(80vh) !important;
+    height: calc(80vh) !important;
+    max-height: -webkit-calc(100vw / 2 * 3) !important;
+    max-height: -moz-calc(100vw / 2 * 3) !important;
+    max-height: calc(100vw / 2 * 3) !important;
+    position: relative !important;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    padding-top: 32px !important;
+    text-align: center !important;
+    overflow: scroll !important;
+    p {
+      margin: 32px !important;
+    word-wrap: break-word !important;
+    font-size: 24px !important;
+    line-height: 26px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    text-transform: undefined !important;
+    color: #484848 !important;
+    padding-top: 20px !important;
+    padding-bottom: undefined !important;
+    font-weight: 250;
+    }
+    h2 {
+      color: inherit !important;
+      font-size: 2em !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      margin: 20px !important;
+      padding: 0px !important;
+    }
+`;
+
 const Hero = styled(Flex)`
   height: 100%;
   position: absolute;
@@ -109,12 +151,14 @@ const ServiceImage = styled.div`
   text-align: center;
   img {
     width: 90%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   @media (max-width: ${props => props.theme.breakpoint.l}) {
     flex-basis: 100%;
     max-width: 100%;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     img {
       width: 50%;
     }
@@ -175,10 +219,14 @@ const IndexPage = ({
       <Logo>Host unique experiences on SploreGuide
       <Subtitle>Earn money leading people on trips and activities you love</Subtitle>
       </Logo>
-
-      <Hero justifyContent="center" alignItems="center" flexDirection="column">
-      </Hero>
     </Header>
+
+      <Card>
+        <h2>What are SploreGuide experiences?
+        <p>
+        SploreGuide Experiences are activities designed and led by inspiring locals. They go beyond typical tours or classes by immersing guests in each host’s unique world. It’s an opportunity for anyone to share their hobbies, skills, or expertise without needing an extra room.</p>
+        </h2>
+      </Card>
     <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
       {edges.map(c => (
         <GridItem

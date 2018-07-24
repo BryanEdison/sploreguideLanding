@@ -4,7 +4,6 @@ import React, {Component} from 'react';
 const vidStyle = {
 height: '100%',
 width: '100%',
-top: 0,
 padding: 'none',
 position: 'relative'
 }
