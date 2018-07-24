@@ -67,7 +67,7 @@ background-color: #eff0f4 !important;
     text-align: center !important;
     overflow: scroll !important;
     p {
-      margin: 32px !important;
+      margin: 10px !important;
     word-wrap: break-word !important;
     font-size: 20px !important;
     line-height: 26px !important;
@@ -212,6 +212,25 @@ const Contact = styled(Wrapper)`
   }
 `;
 
+const Started = styled(Wrapper)`
+  margin: 0 auto;
+  h1,
+  h2,
+  h3 {
+    color: ${props => props.theme.colors.text};
+  }
+  h4 {
+    font-family: ${props => props.theme.fontFamily.body};
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  @media (max-width: ${props => props.theme.breakpoint.m})
+  {
+    font-size: 1.5rem;
+  }
+`;
+
 const IndexPage = ({
   data: {
     caseStudies: { edges },
@@ -269,6 +288,9 @@ const IndexPage = ({
         </Flex>
       </Wrapper>
     </PrimaryBG>
+    <Started justifyContent="center" alignItems="center">
+    <h1>How to Get Started</h1>
+    </Started>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
       <h1>Say hi!</h1>
       <h4>contact@SploreGuide.com</h4>
