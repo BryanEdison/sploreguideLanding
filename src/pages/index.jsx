@@ -137,7 +137,7 @@ const Wrapper = styled(Flex)`
 
 
 const PrimaryBG = styled.section`
-  background: ${props => props.theme.colors.primaryDark};
+  background: #F8F9FA !important;
   color: ${props => props.theme.colors.textInvert};
   h1,
   h2,
@@ -246,7 +246,8 @@ const IndexPage = ({
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
           <ServiceImage>
-            <img src={Calendar} alt="Calendar" />
+            <img src={Calendar} alt="Calendar" height= '650px' width='auto'
+            />
           </ServiceImage>
           <ServiceText>
             <h2>Host on your terms</h2>
