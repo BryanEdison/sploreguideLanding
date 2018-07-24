@@ -69,7 +69,7 @@ background-color: #eff0f4 !important;
     p {
       margin: 32px !important;
     word-wrap: break-word !important;
-    font-size: 24px !important;
+    font-size: 20px !important;
     line-height: 26px !important;
     letter-spacing: normal !important;
     font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
@@ -219,15 +219,15 @@ const IndexPage = ({
   <React.Fragment>
   <Vid />
     <Header>
-      <Logo>Host unique experiences on SploreGuide
+      <Logo>Host unique adventures on SploreGuide
       <Subtitle>Earn money leading people on trips and activities you love</Subtitle>
       </Logo>
     </Header>
 
       <Card>
-        <h2>What are SploreGuide experiences?
+        <h2>What are SploreGuide Adventures?
         <p>
-        SploreGuide Experiences are activities designed and led by inspiring locals. They go beyond typical tours or classes by immersing guests in each host’s unique world. It’s an opportunity for anyone to share their hobbies, skills, or expertise without needing an extra room.</p>
+        SploreGuide Adventures are activities designed and led by inspiring locals. They go beyond typical tours or classes by immersing guests in each host’s unique world. It’s an opportunity for anyone to share their hobbies, skills, or expertise without needing an extra room.</p>
         </h2>
       </Card>
     <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
