@@ -10,9 +10,13 @@ import { randomNumber } from '../utils/randomNumber';
 const Item = styled(Flex)`
   flex-basis: calc(99.9% * 1 / 2 - 4rem);
   max-width: calc(99.9% * 1 / 2 - 4rem);
+  max-height: 620px;
   width: calc(99.9% * 1 / 2 - 4rem);
   text-align: center;
   position: relative;
+
+
+
   @media (max-width: ${props => props.theme.breakpoint.m}) {
     flex-basis: 100%;
     max-width: 100%;
@@ -95,7 +99,7 @@ const StyledLink = styled(Link)`
 `;
 
 const GridItem = ({ uid, sizes, alt, title, subtitle }) => (
-  <Item flexDirection="column" key={uid} style={{ marginTop: '8rem' }}>
+  <Item flexDirection="column" key={uid} style={{ marginTop: '.05rem' }}>
       <Overlay justifyContent="center" alignItems="center" flexDirection="column">
       </Overlay>
       <Image sizes={sizes} alt={alt} />
