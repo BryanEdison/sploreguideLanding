@@ -230,6 +230,66 @@ const Started = styled(Wrapper)`
   }
 `;
 
+const Steps = styled(Wrapper)`
+box-sizing: border-box;
+margin-left: -8px !important;
+margin-right: -8px !important;
+`
+const Box = styled(Wrapper)`
+padding-left: 8px !important;
+    padding-right: 8px !important;
+    min-height: 1px !important;
+    position: relative !important;
+    width: 33.33333333333333% !important;
+    float: left !important;
+    display: block;
+
+
+`
+const Circle = styled(Wrapper)`
+border-radius: 50% !important;
+    border: solid 2px #000000 !important;
+    width: 48px !important;
+    height: 48px !important;
+    position: relative !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%) !important;
+    -ms-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
+    line-height: 45px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    display: block;
+
+`
+const Major = styled(Wrapper)`
+margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    text-transform: undefined !important;
+    color: #484848 !important;
+    padding-top: undefined !important;
+    padding-bottom: undefined !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    display: block;
+
+`
+
+const Text = styled(Wrapper)`
+width: 100% !important;
+
+padding-right: 24px !important;
+padding-left: 24px !important;
+text-align: center !important;
+
+`
+
+
 const IndexPage = ({
   data: {
     caseStudies: { edges },
@@ -288,8 +348,26 @@ const IndexPage = ({
       </Wrapper>
     </PrimaryBG>
     <Started justifyContent="center" alignItems="center">
-    <h1>How to Get Started</h1>
-    </Started>
+    <h1>How to Get Started</h1> </Started>
+    <Steps>
+    <Box>
+    <Circle>1</Circle>
+    <Major>Learn what we’re looking for</Major>
+    <Text>Review our quality standards and see if your experience is a fit for SploreGuide.</Text>
+    </Box>
+    <Box>
+    <Circle>2</Circle>
+    <Major>Create your experience page</Major>
+    <Text>Review our quality standards and see if your experience is a fit for SploreGuide.</Text>
+    </Box>
+    <Box>
+    <Circle>3</Circle>
+    <Major>Submit to SploreGuide for review</Major>
+    <Text>Review our quality standards and see if your experience is a fit for SploreGuide.</Text>
+    </Box>
+
+    </Steps>
+
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
       <h1>Say hi!</h1>
       <h4>contact@SploreGuide.com</h4>
