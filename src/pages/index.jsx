@@ -7,6 +7,7 @@ import GridItem from '../components/GridItem';
 import Calendar from '../images/phone.png';
 import DataReport from '../images/data_report.svg';
 import MayTheForce from '../images/may_the_force.svg';
+import SploreGuide from '../images/sploreguide.png';
 import Vid from '../components/Video';
 import Helmet from 'react-helmet';
 import YouTube from 'react-youtube';
@@ -147,6 +148,7 @@ const PrimaryBG = styled.section`
   }
 `;
 
+
 const ServiceImage = styled.div`
   flex-basis: calc(99.9% * 4 / 7 - 5rem);
   max-width: calc(99.9% * 4 / 7 - 5rem);
@@ -213,6 +215,9 @@ const Contact = styled(Wrapper)`
 
 const Started = styled(Wrapper)`
   margin: 0 auto;
+  display: block;
+  text-align: center !important;
+
   h1,
   h2,
   h3 {
@@ -234,6 +239,8 @@ const Steps = styled(Wrapper)`
 box-sizing: border-box;
 margin-left: -8px !important;
 margin-right: -8px !important;
+display: block !important;
+
 `
 const Box = styled(Wrapper)`
 padding-left: 8px !important;
@@ -242,7 +249,7 @@ padding-left: 8px !important;
     position: relative !important;
     width: 33.33333333333333% !important;
     float: left !important;
-    display: block;
+    display: block !important;
 
 
 `
@@ -348,7 +355,7 @@ const IndexPage = ({
       </Wrapper>
     </PrimaryBG>
     <Started justifyContent="center" alignItems="center">
-    <h1>How to Get Started</h1> </Started>
+    <h1>How to Get Started</h1>
     <Steps>
     <Box>
     <Circle>1</Circle>
@@ -367,6 +374,7 @@ const IndexPage = ({
     </Box>
 
     </Steps>
+    </Started>
 
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
       <h1>Say hi!</h1>
