@@ -38,7 +38,7 @@ const Logo = styled.h2`
   right: 0;
   text-align: left;
   padding: 0 1.75rem;
-  margin-top: calc(70vw * (9/16));
+  margin-top: calc(60vw * (9/16));
   color: white;
   font-size: calc(7px + 3vw);
   margin-bottom: 3vmin;
