@@ -21,6 +21,12 @@ const Header = styled.header`
   @media (max-width: ${props => props.theme.breakpoint.s}) {
     height: 700px;
   }
+
+  img {
+    width: 15%;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
 `;
 
 const Logo = styled.h2`
@@ -28,23 +34,23 @@ const Logo = styled.h2`
   top: 0;
   left: 0;
   right: 0;
-  text-align: center;
+  text-align: left;
   padding: 0 1.75rem;
-  margin-top: 50px;
+  margin-top: calc(70vw * (9/16));
   color: white;
 `;
 
-const Subtitle = styled.h3`
+const Subtitle = styled.h4`
   position: relative;
   top: 0;
   left: 0;
   right: 0;
-  text-align: center;
-  padding: 0 1.75rem;
+  text-align: left;
+  padding: 0 0rem;
   color: white;
   font-family: ${props => props.theme.fontFamily.body};
-  margin-top: 9rem;
-  font-size: 1.85rem;
+  margin-top: 0rem;
+  font-size: 1 rem;
   font-weight: 400;
 `;
 
@@ -218,7 +224,9 @@ const Started = styled(Wrapper)`
   display: block;
   text-align: center !important;
 
-  h1,
+  h1 {
+    margin-bottom:40px;
+  }
   h2,
   h3 {
     color: ${props => props.theme.colors.text};
@@ -304,7 +312,9 @@ const IndexPage = ({
 }) => (
   <React.Fragment>
   <Vid />
+
     <Header>
+     <img src={SploreGuide} />
       <Logo>Host unique adventures on SploreGuide
       <Subtitle>Earn money leading people on trips and activities you love</Subtitle>
       </Logo>

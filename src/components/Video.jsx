@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 
 
 const vidStyle = {
-height: '100%',
-width: '100%',
+  width: '100vw',
+  height: 'calc(100vw * (9/16))',
 padding: 'none',
 position: 'relative'
 }
