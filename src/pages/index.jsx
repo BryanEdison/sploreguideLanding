@@ -8,9 +8,12 @@ import Calendar from '../images/phone.png';
 import DataReport from '../images/data_report.svg';
 import MayTheForce from '../images/may_the_force.svg';
 import SploreGuide from '../images/sploreguide.png';
+import Fishing from '../images/fishing.jpg';
+import Climbing from '../images/climbing.jpg';
 import Vid from '../components/Video';
 import Helmet from 'react-helmet';
 import YouTube from 'react-youtube';
+import { color } from 'styled-system';
 
 const Header = styled.header`
   width: 100%;
@@ -158,6 +161,54 @@ const PrimaryBG = styled.section`
   }
 `;
 
+const AltPrimaryBG = styled.section`
+  background: #eff0f4 !important;
+  margin: 0px;
+  padding: 0px;
+  color: ${props => props.theme.colors.textInvert};
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: ${props => props.theme.colors.textInvert};
+  }
+`;
+
+const AltWrapper = styled(Flex)`
+  box-sizing: border-box;
+  margin: 0px !important;
+  padding: 0px !important;
+  // background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)) !important;
+  max-width: ${props => props.theme.maxWidth};`;
+
+
+  const AltServiceImage = styled.div`
+  margin: 0px !important;
+  padding: 0px !important;
+  flex-basis: calc(99.9% * 4 / 7 - 5rem);
+  max-width: calc(99.9% * 4 / 7 - 5rem);
+  width: calc(99.9% * 4 / 7 - 5rem);
+  text-align: center;
+  img {
+    width: 90%;
+    margin: 1rem;
+  }
+  @media (max-width: ${props => props.theme.breakpoint.l}) {
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
+    img {
+      width: 50%;
+    }
+  }
+  @media (max-width: ${props => props.theme.breakpoint.s}) {
+
+    img {
+      width: 75%;
+    }
+  }
+`;
+
 
 const ServiceImage = styled.div`
   flex-basis: calc(99.9% * 4 / 7 - 5rem);
@@ -183,8 +234,38 @@ const ServiceImage = styled.div`
     }
   }
 `;
+const AltServiceText = styled.div`
+  flex-basis: calc(99.9% * 3 / 7 - 5rem);
+  max-width: calc(99.9% * 3 / 7 - 5rem);
+  width: calc(99.9% * 3 / 7 - 5rem);
+  color: #484848 !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  justifyContent: center;
+  align-self: center;
+  align-items: center;
+  h2 {
+    color: #484848 !important
+  }
+  @media (max-width: ${props => props.theme.breakpoint.l})
+  {
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  ol,
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+  li:before {
+    content: '－';
+    padding-right: 8px;
+  }
+`;
 
 const ServiceText = styled.div`
+
   flex-basis: calc(99.9% * 3 / 7 - 5rem);
   max-width: calc(99.9% * 3 / 7 - 5rem);
   width: calc(99.9% * 3 / 7 - 5rem);
@@ -330,17 +411,35 @@ const IndexPage = ({
         SploreGuide Adventures are activities designed and led by inspiring locals. They go beyond typical tours or classes by immersing guests in each host’s unique world. It’s an opportunity for anyone to share their hobbies, skills, or expertise without needing an extra room.</p>
         </h2>
       </Card>
-    <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
-      {edges.map(c => (
-        <GridItem
-          uid={c.node.uid}
-          key={c.node.uid}
-          sizes={c.node.data.header_image.localFile.childImageSharp.sizes}
-          title={c.node.data.title.text}
-          subtitle={c.node.data.subtitle.text}
-        />
-      ))}
-    </Wrapper>
+
+    <AltPrimaryBG>
+    <AltWrapper flexDirection="column" p={4} mx="auto">
+      <Flex w={1} py={0} flexWrap="wrap">
+        <AltServiceImage>
+          <img src={Fishing} height= '650px' width='auto'
+          />
+        </AltServiceImage>
+        <AltServiceText>
+          <h2>Meet new people</h2>
+          <p>
+          Connect with a community of travelers and locals who share your interests. You might make a few new friends, learn from fellow enthusiasts, or get someone excited about a new hobby.
+          </p>
+        </AltServiceText>
+      </Flex>
+      <Flex w={1} py={2} flexDirection="row-reverse" flexWrap="wrap">
+        <AltServiceImage>
+          <img src={Climbing} alt="Data Report" />
+        </AltServiceImage>
+        <AltServiceText>
+          <h2>Share your passion and hobbies with the world</h2>
+          <p>
+          Introduce guests to the activities and places you’re most passionate about. We’ll help you design your experience step by step, with plenty of resources along the way.
+          </p>
+        </AltServiceText>
+      </Flex>
+    </AltWrapper>
+  </AltPrimaryBG>
+
     <PrimaryBG>
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">

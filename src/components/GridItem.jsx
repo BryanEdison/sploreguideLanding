@@ -14,6 +14,7 @@ const Item = styled(Flex)`
   width: calc(99.9% * 1 / 2 - 4rem);
   text-align: center;
   position: relative;
+  display: block;
 
 
 
