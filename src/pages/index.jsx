@@ -366,7 +366,7 @@ border-radius: 50% !important;
 const Major = styled(Wrapper)`
 margin: 0px !important;
     word-wrap: break-word !important;
-    font-size: 18px !important;
+    font-size: calc(3px + 1vw) !important;
     line-height: 26px !important;
     letter-spacing: normal !important;
     font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
@@ -382,7 +382,7 @@ margin: 0px !important;
 
 const Text = styled(Wrapper)`
 width: 100% !important;
-font-size: calc(1px + 1.2vw);
+font-size: calc(2.5px + 1vw);
 padding-right: 24px !important;
 padding-left: 24px !important;
 text-align: center !important;
