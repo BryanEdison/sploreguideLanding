@@ -416,8 +416,7 @@ const IndexPage = ({
     <AltWrapper flexDirection="column" p={4} mx="auto">
       <Flex w={1} py={0} flexWrap="wrap">
         <AltServiceImage>
-          <img src={Fishing} height= '650px' width='auto'
-          />
+          <img src={Fishing} />
         </AltServiceImage>
         <AltServiceText>
           <h2>Meet new people</h2>
