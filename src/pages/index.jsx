@@ -83,7 +83,7 @@ background-color: #eff0f4 !important;
     p {
       margin: 8px !important;
     word-wrap: break-word !important;
-    font-size: 20px !important;
+    font-size: calc(2px + 1vw) !important;
     line-height: 26px !important;
     letter-spacing: normal !important;
     font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
