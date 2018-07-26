@@ -245,7 +245,11 @@ const AltServiceText = styled.div`
   align-self: center;
   align-items: center;
   h2 {
+    text-align: center;
     color: #484848 !important
+  }
+  p {
+    text-align: center;
   }
   @media (max-width: ${props => props.theme.breakpoint.l})
   {
