@@ -95,7 +95,7 @@ background-color: #eff0f4 !important;
     }
     h2 {
       color: inherit !important;
-      font-size: 2em !important;
+      font-size: calc(2px + 3vw) !important;
       font-weight: inherit !important;
       line-height: inherit !important;
       margin: 15px !important;
