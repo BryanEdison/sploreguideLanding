@@ -40,7 +40,7 @@ const Logo = styled.h2`
   padding: 0 1.75rem;
   margin-top: calc(60vw * (9/16));
   color: white;
-  font-size: calc(7px + 3vw);
+  font-size: calc(1px + 3vw);
   margin-bottom: 3vmin;
 
 `;
