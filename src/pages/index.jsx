@@ -441,7 +441,7 @@ const IndexPage = ({
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
           <ServiceImage>
-            <img src={Calendar} alt="Calendar" height= '650px' width='auto'
+            <img src={Calendar} alt="Calendar"
             />
           </ServiceImage>
           <ServiceText>
