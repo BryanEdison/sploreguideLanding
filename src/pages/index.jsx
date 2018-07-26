@@ -14,7 +14,6 @@ import YouTube from 'react-youtube';
 
 const Header = styled.header`
   width: 100%;
-  height: 600px;
   position: absolute;
   padding: 0rem;
   top: 0px;
@@ -38,6 +37,9 @@ const Logo = styled.h2`
   padding: 0 1.75rem;
   margin-top: calc(70vw * (9/16));
   color: white;
+  font-size: 2.5em;
+  margin-bottom: 3vmin;
+
 `;
 
 const Subtitle = styled.h4`
@@ -52,6 +54,8 @@ const Subtitle = styled.h4`
   margin-top: 0rem;
   font-size: 1 rem;
   font-weight: 400;
+  margin-bottom: 3vmin;
+
 `;
 
 const Card = styled(Flex)`
