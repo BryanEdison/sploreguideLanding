@@ -382,7 +382,7 @@ margin: 0px !important;
 
 const Text = styled(Wrapper)`
 width: 100% !important;
-
+font-size: calc(1px + 1.2vw);
 padding-right: 24px !important;
 padding-left: 24px !important;
 text-align: center !important;
