@@ -55,7 +55,7 @@ const Subtitle = styled.h4`
   color: white;
   font-family: ${props => props.theme.fontFamily.body};
   margin-top: 0rem;
-  font-size: 1 rem;
+  font-size: calc(1px + 1.5vw);
   font-weight: 400;
   margin-bottom: 3vmin;
 
