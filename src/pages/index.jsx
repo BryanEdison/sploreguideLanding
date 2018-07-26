@@ -40,7 +40,7 @@ const Logo = styled.h2`
   padding: 0 1.75rem;
   margin-top: calc(70vw * (9/16));
   color: white;
-  font-size: 2.5em;
+  font-size: calc(20px + 1vw);
   margin-bottom: 3vmin;
 
 `;
@@ -396,15 +396,13 @@ const IndexPage = ({
   },
 }) => (
   <React.Fragment>
-  <Vid />
-
+  <Vid/>
     <Header>
      <img src={SploreGuide} />
       <Logo>Host unique adventures on SploreGuide
       <Subtitle>Earn money leading people on trips and activities you love</Subtitle>
       </Logo>
     </Header>
-
       <Card>
         <h2>What are SploreGuide Adventures?
         <p>
